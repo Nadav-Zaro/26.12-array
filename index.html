@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        // 1
+        // function getSum(array) {
+        //     let sum = 0;
+        //     for (let i = 0; i < array.length; i++) {
+        //         sum += array[i]
+        //     }
+        //     return sum
+        // }
+        // console.log(getSum([1,2,3]));
+
+        //2
+        // function getMultiply(array) {
+        //     let sum = array[0];
+        //     for (let i = 1; i < array.length; i++) {
+        //         sum *= array[i]
+        //     }
+        //     return sum
+        // }
+        // console.log(getMultiply([2,3,3]));
+
+        //3
+        // function getNumMultiply(num) {
+        //     let sum = 0
+        //     while (num != 0) {
+        //         sum +=num % 10
+        //         num = parseInt(num / 10)
+        //     }
+        //     return sum
+        // }
+        // console.log(getNumMultiply(229));
+
+        //4
+        // let ageArr = [29,30,31,33]
+        // function getMinAge(array) {
+        //     let min = array[0]
+        //     for (let i = 0; i < array.length; i++) {
+        //         if (min > array[i]) {
+        //             min = array[i]
+        //         }
+        //     }
+        //     return min
+        // }
+        // console.log(getMinAge(ageArr));
+
+        // function getMaxAge(array) {
+        //     let max = array[0]
+        //     for (let i = 0; i < array.length; i++) {
+        //         if (max < array[i]) {
+        //             max = array[i]
+        //         }
+        //     }
+        //     return max
+        // }
+        // console.log(getMaxAge(ageArr));
+
+        // function getAgeSum(array) {
+        //     let sum = 0
+        //     for (let i = 0; i < array.length; i++) {
+        //             sum += array[i]
+        //     }
+        //     return sum
+        // }
+        // console.log(getAgeSum(ageArr));
+
+        // function getAgeAvg(array) {
+        //     let sum = 0
+        //     let avg = 0
+        //     for (let i = 0; i < array.length; i++) {
+        //             sum += array[i]
+        //     }
+        //     avg = sum / array.length
+        //     return avg
+        // }
+        // console.log(getAgeAvg(ageArr));
+
+        //5
+        let num1 = Number(prompt("First Number"))
+        let num2 = Number(prompt("Second Number"))
+        let num3 = Number(prompt("Third Number"))
+        // function getUserMultiply(n1,n2,n3) {
+        //     let useArr = []
+        //     useArr.push(n1,n2,n3)
+        //     let userMultiply = useArr[0]
+        //     for (let i = 1; i < useArr.length; i++) {
+        //         userMultiply *= useArr[i]
+        //     }
+        //     return userMultiply
+        // }
+        // console.log(getUserMultiply(num1,num2,num3));
+
+        // function getUserSum(n1,n2,n3) {
+        //     let useArr = []
+        //     useArr.push(n1,n2,n3)
+        //     let userSum = 0
+        //     for (let i = 0; i < useArr.length; i++) {
+        //         userSum += useArr[i]
+        //     }
+        //     return userSum
+        // }
+        // console.log(getUserSum(num1,num2,num3));
+
+        function evenOrOdd(n1,n2,n3) {
+            let useArr = []
+            useArr.push(n1,n2,n3)
+            for (let i = 0; i < useArr.length; i++) {
+                if (useArr[i] % 2 == 0) {
+                    console.log(useArr[i] + " Even");
+                }
+                else console.log(useArr[i] + " Odd");
+            }
+        }
+       evenOrOdd(num1,num2,num3);
+    </script>
+</body>
+</html>
